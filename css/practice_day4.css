@@ -1,0 +1,157 @@
+            /*header styles*/
+            #header {width: 100%; height: 100px; background:green; padding: 5px; top: 0px; left:0px}
+
+            .left_header {color: white; position: relative; top: 50%; margin: 0;transform: translate(0,-50%);}
+            body {background-image: url(../img/prac_4_bg.jpg);}
+            div.header_options {
+                                position: relative;
+                                float: right; 
+                                top: 0;
+                                margin-left: 25px;
+                                font-size: 25px;
+                                color: white;
+                                }
+            
+            /*sticky header styles*/
+            #sticky_header {
+                            width: 100%;
+                            height: 70px;
+                            top: 0;
+                            position: sticky;
+                            padding: 5px;
+                            background: rgb(39, 39, 39);
+                            z-index: 5;
+                            }
+            .sticky_options{   
+                            float: right;
+                            position: relative;
+                            top: -50%;
+                            font-size: 25px;
+                            color: white;
+                            margin: 0 25px 0;
+                            }
+
+            #stickyReadingProgress {
+                position: absolute;
+                width: 100%;
+                height: 15px;
+                bottom: 0px;
+                left: 0px;
+            }
+
+            #progressFill {
+                width: 0;
+                height: 15px;
+                background-color: green;
+                transition: 100ms ease;
+            }
+
+            
+            /*fixed position practice*/
+            .fixed_div{
+                       position: fixed;
+                       bottom: 50%;
+                       right: 0;
+                       height: 100px;
+                       width: 50px;
+                       background: #393939;
+                        }
+
+            .fixed_text{
+                font-size: 15px;
+                color: white;
+                        }
+
+            .code_part {background-color:  rgb(207, 207, 207);}
+            
+            /* Horizontal unordered list advance practice*/
+            #pos_ul {list-style-type: none; 
+                     text-align: center;
+                     height: 300px;
+                     margin: 0;
+                     padding: 0;
+                    }
+            #pos_ul .pos_li {width: 200px;
+                             height: 300px;
+                             position: relative;
+                             background-color: green;
+                             display: inline-block;
+                             margin: 0 1% 0;
+
+                             color: white;
+                            }
+            .pos_li > .pos_header {
+                width: 100%;
+                height: 60px;
+                background-color: rgb(172, 255, 47);
+                color:black;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            .pos_li > p {
+                text-align: left;
+                padding: 5px;
+            }
+
+            /*footer*/
+            #footer {
+                     width: 100%;
+                     height: 300px;
+                     background: green;
+                     top: 100%;
+                     position: relative;
+                     text-align: center;
+                    }
+                    #footer_title {text-align: center;}
+            #footer_title img {
+                               width: 100px;
+                               height: 100px;
+                               vertical-align: middle;
+                              }
+            #footer_title span {
+                                font-size: 40px;
+                                vertical-align: middle;
+                                font-weight: bold; 
+                                color: white;
+                               }
+            #footer_copyright {
+                               position:absolute;
+                               width:100%;bottom:0;
+                               text-align: center;
+                               color: white;
+                               font-weight: bold;
+                              }
+                              #footer .footer_content_ul {
+                                        list-style-type: none;
+                                        text-align: center;
+                                        position: relative;
+                                        top: 20px;
+                                      }
+            #footer .footer_content_ul > li{
+                                            margin: 0 10% 0;
+                                            color: white;
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                            display: inline-block;
+                                          }
+
+            #footer .footer_content_ul > li  a {
+                                                 font-size: 20px;
+                                                 vertical-align: middle;
+                                                 font-weight: bold; 
+                                                 color: white;
+                                                 text-decoration: none;
+                                                }
+            #footer .footer_content_ul > li a:hover, 
+            #footer .footer_content_ul > li span:hover {
+                color: rgb(153, 153, 153);
+            }
+            #footer .footer_content_ul > li a:visited {
+                color: inherit;
+            }
+            #footer .sub_content_ul {
+                                    list-style-type: none;
+                                    text-align: center;
+                                    }
